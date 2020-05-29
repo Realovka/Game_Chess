@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        char[][] array = new char[10][10];
+        char[][] array = new char[8][8];
         Boolean a = new Boolean(true);
         Boolean b = new Boolean(true);
         Boolean c = new Boolean(true);

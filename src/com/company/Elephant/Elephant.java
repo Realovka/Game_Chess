@@ -31,7 +31,6 @@ public class Elephant {
                     y3 = y4;
                     n++;
                     b = false;
-                    break;
                 } else if ((x4 == x3 + i) && (y4 == y3 + i) && (array[x4][y4] != '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон бьет фигуру. Победа белых");
                     array[x4][y4] = '♗';
@@ -39,7 +38,6 @@ public class Elephant {
                     n++;
                     b = false;
                     c = false;
-                    break;
                 } else if ((x4 == x3 - i) && (y4 == y3 - i) && (array[x4][y4] == '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон занял пустую клетку");
                     array[x4][y4] = '♗';
@@ -48,7 +46,6 @@ public class Elephant {
                     y3 = y4;
                     n++;
                     b = false;
-                    break;
                 } else if ((x4 == x3 - i) && (y4 == y3 - i) && (array[x4][y4] != '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон бьет фигуру. Победа белых");
                     array[x4][y4] = '♗';
@@ -56,7 +53,6 @@ public class Elephant {
                     n++;
                     b = false;
                     c = false;
-                    break;
                 } else if ((x4 == x3 - i) && (y4 == y3 + i) && (array[x4][y4] == '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон занял пустую клетку");
                     array[x4][y4] = '♗';
@@ -65,7 +61,6 @@ public class Elephant {
                     y3 = y4;
                     b = false;
                     n++;
-                    break;
                 } else if ((x4 == x3 - i) && (y4 == y3 + i) && (array[x4][y4] != '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон бьет фигуру.Победа белых");
                     array[x4][y4] = '♗';
@@ -73,7 +68,6 @@ public class Elephant {
                     n++;
                     b = false;
                     c = false;
-                    break;
                 } else if ((x4 == x3 + i) && (y4 == y3 - i) && (array[x4][y4] == '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон занял пустую клетку");
                     array[x4][y4] = '♗';
@@ -82,7 +76,6 @@ public class Elephant {
                     y3 = y4;
                     b = false;
                     n++;
-                    break;
                 } else if ((x4 == x3 + i) && (y4 == y3 - i) && (array[x4][y4] != '_') && (x4 != x3 && y4 != y3)) {
                     System.out.println("Слон бьет фигуру. Победа белых");
                     array[x4][y4] = '♗';
@@ -90,7 +83,6 @@ public class Elephant {
                     b = false;
                     c = false;
                     n++;
-                    break;
                 }
                 t++;
             }
