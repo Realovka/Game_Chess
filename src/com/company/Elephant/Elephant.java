@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Elephant {
-    public static ArrayList<Object> elephantMove(Boolean b, Boolean c, int n, int t, char[][]array, Integer x3, Integer y3) {
+    public static ArrayList<Object> elephantMove(Boolean b, Boolean c, int n, int t, char[][] array, Integer x3, Integer y3) {
 
         while (b) {
             if (n != t) {
@@ -95,12 +95,12 @@ public class Elephant {
                 t++;
             }
         }
-        ArrayList<Object> arrayList2=new ArrayList<>();
+        ArrayList<Object> arrayList2 = new ArrayList<>();
         arrayList2.add(b);
         arrayList2.add(c);
         arrayList2.add(x3);
         arrayList2.add(y3);
         return arrayList2;
     }
-    }
+}
 

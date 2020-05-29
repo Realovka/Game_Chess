@@ -47,7 +47,7 @@ public class Main {
                 c = (Boolean) arrayList1.get(3);
                 x1 = (Integer) arrayList1.get(0);
                 y1 = (Integer) arrayList1.get(1);
-                b=true;
+                b = true;
 
             }
             while (b) {
@@ -56,7 +56,7 @@ public class Main {
                 c = (Boolean) arrayList3.get(1);
                 x3 = (Integer) arrayList3.get(2);
                 y3 = (Integer) arrayList3.get(3);
-                a=true;
+                a = true;
 
             }
 

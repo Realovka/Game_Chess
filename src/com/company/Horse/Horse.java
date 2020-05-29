@@ -18,120 +18,120 @@ public class Horse {
         Integer x2 = scanner3.nextInt();
         Scanner scanner4 = new Scanner(System.in);
         Integer y2 = scanner4.nextInt();
-            if ((x2 == x1 - 2) && (y2 == y1 + 1) && (array[x1 - 2][y1 + 1] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a=false;
-                array[x1 - 2][y1 + 1] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 - 2) && (y2 == y1 + 1) && (array[x1 - 2][y1 + 1] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 - 2][y1 + 1] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 - 1) && (y2 == y1 + 2) && (array[x1 - 1][y1 + 2] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 - 1][y1 + 2] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 - 1) && (y2 == y1 + 2) && (array[x1 - 1][y1 + 2] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 - 1][y1 + 2] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 + 1) && (y2 == y1 + 2) && (array[x1 + 1][y1 + 2] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 + 1][y1 + 2] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 + 1) && (y2 == y1 + 2) && (array[x1 + 1][y1 + 2] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных");
-                a = false;
-                c = false;
-                array[x1 + 1][y1 + 2] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 + 2) && (y2 == y1 + 1) && (array[x1 + 2][y1 + 1] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 + 2][y1 + 1] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 + 2) && (y2 == y1 + 1) && (array[x1 + 2][y1 + 1] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 + 2][y1 + 1] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 + 2) && (y2 == y1 - 1) && (array[x1 + 2][y1 - 1] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 + 2][y1 - 1] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 + 2) && (y2 == y1 - 1) && (array[x1 + 2][y1 - 1] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 + 2][y1 - 1] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 + 1) && (y2 == y1 - 2) && (array[x1 + 1][y1 - 2] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 + 1][y1 - 2] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 + 1) && (y2 == y1 - 2) && (array[x1 + 1][y1 - 2] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 + 1][y1 - 2] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 - 1) && (y2 == y1 - 2) && (array[x1 - 1][y1 - 2] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 - 1][y1 - 2] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 - 1) && (y2 == y1 - 2) && (array[x1 - 1][y1 - 2] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 - 1][y1 - 2] = '♞';
-                array[x1][y1] = '_';
-            } else if ((x2 == x1 - 2) && (y2 == y1 - 1) && (array[x1 - 2][y1 - 1] == '_')) {
-                System.out.println("Конь занял пустую клетку");
-                a = false;
-                array[x1 - 2][y1 - 1] = '♞';
-                array[x1][y1] = '_';
-                x1 = x2;
-                y1 = y2;
-            } else if ((x2 == x1 - 2) && (y2 == y1 - 1) && (array[x1 - 2][y1 - 1] != '_')) {
-                System.out.println("Конь бьет фигуру в клетке. Победа черных ");
-                a = false;
-                c = false;
-                array[x1 - 2][y1 - 1] = '♞';
-                array[x1][y1] = '_';
-            } else {
-                System.out.println("Так конь не ходит");
+        if ((x2 == x1 - 2) && (y2 == y1 + 1) && (array[x1 - 2][y1 + 1] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 - 2][y1 + 1] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 - 2) && (y2 == y1 + 1) && (array[x1 - 2][y1 + 1] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 - 2][y1 + 1] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 - 1) && (y2 == y1 + 2) && (array[x1 - 1][y1 + 2] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 - 1][y1 + 2] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 - 1) && (y2 == y1 + 2) && (array[x1 - 1][y1 + 2] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 - 1][y1 + 2] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 + 1) && (y2 == y1 + 2) && (array[x1 + 1][y1 + 2] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 + 1][y1 + 2] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 + 1) && (y2 == y1 + 2) && (array[x1 + 1][y1 + 2] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных");
+            a = false;
+            c = false;
+            array[x1 + 1][y1 + 2] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 + 2) && (y2 == y1 + 1) && (array[x1 + 2][y1 + 1] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 + 2][y1 + 1] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 + 2) && (y2 == y1 + 1) && (array[x1 + 2][y1 + 1] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 + 2][y1 + 1] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 + 2) && (y2 == y1 - 1) && (array[x1 + 2][y1 - 1] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 + 2][y1 - 1] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 + 2) && (y2 == y1 - 1) && (array[x1 + 2][y1 - 1] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 + 2][y1 - 1] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 + 1) && (y2 == y1 - 2) && (array[x1 + 1][y1 - 2] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 + 1][y1 - 2] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 + 1) && (y2 == y1 - 2) && (array[x1 + 1][y1 - 2] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 + 1][y1 - 2] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 - 1) && (y2 == y1 - 2) && (array[x1 - 1][y1 - 2] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 - 1][y1 - 2] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 - 1) && (y2 == y1 - 2) && (array[x1 - 1][y1 - 2] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 - 1][y1 - 2] = '♞';
+            array[x1][y1] = '_';
+        } else if ((x2 == x1 - 2) && (y2 == y1 - 1) && (array[x1 - 2][y1 - 1] == '_')) {
+            System.out.println("Конь занял пустую клетку");
+            a = false;
+            array[x1 - 2][y1 - 1] = '♞';
+            array[x1][y1] = '_';
+            x1 = x2;
+            y1 = y2;
+        } else if ((x2 == x1 - 2) && (y2 == y1 - 1) && (array[x1 - 2][y1 - 1] != '_')) {
+            System.out.println("Конь бьет фигуру в клетке. Победа черных ");
+            a = false;
+            c = false;
+            array[x1 - 2][y1 - 1] = '♞';
+            array[x1][y1] = '_';
+        } else {
+            System.out.println("Так конь не ходит");
 
-            }
-        ArrayList<Object> arrayList= new ArrayList<>();
+        }
+        ArrayList<Object> arrayList = new ArrayList<>();
         arrayList.add(x1);
         arrayList.add(y1);
         arrayList.add(a);
         arrayList.add(c);
-         return arrayList;
+        return arrayList;
     }
 }
 
